@@ -1,0 +1,99 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+label.name{
+    margin-right:200px ;
+    margin-left: 10px;
+}
+
+
+input.name{
+    margin-right: 16px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+input{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+label.address{
+    margin-left: 10px;
+}
+input.address{
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+input.city{
+  padding-right: 1px;
+  margin-left: 10px;
+}
+
+label.city{
+    margin-right:149px ;
+    margin-left: 9px;
+}
+
+label.state{
+    margin-right:115px ;
+    margin-left: 9px;
+}
+
+input.state{
+width: 100px;
+}
+
+input.zip{
+    width:75px;
+}
+
+.para{
+    padding-left: 10px;
+}
+
+input.white{
+    margin-left: 15px;
+}
+
+.para2{
+    margin-left: 15px;
+}
+
+.radio{
+    margin-left: 15px;
+}
+
+.com{
+    margin-left: 15px;
+}
+
+.text{
+    margin-left: 15px;
+}
+
+.box{
+    margin-left: 15px;
+}
+
+.sign{
+    margin-right: 63%;
+}
+
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: black ;
+
+}
