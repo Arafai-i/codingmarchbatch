@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('vid/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    }
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    margin-right: 85rem;
+}
+#phone{
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+label{
+    color: white;
+}
+
+form {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.Radius{
+        border-radius: 8px;
+}
+textarea{
+    height: 20rem;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    margin: 20px;
+}

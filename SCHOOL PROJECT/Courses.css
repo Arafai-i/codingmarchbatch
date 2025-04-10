@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('vid/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    }
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    margin-right: 85rem;
+}
+.sec-1, .sec-2, .sec-3{
+    display: flex;
+    gap: 20rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-3{
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+.img-1 a, .img-2 a, .img-3 a, .img-4 a, .img-5 a, .img-6 a, .img-7 a, .img-8 a, .img-9 a{   
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.img-1 , .img-2 , .img-3 , .img-4 , .img-5 , .img-6,  .img-7, .img-8, .img-9{   
+    background: #ffffff;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+footer{
+    background:#333;
+    height: 17.3rem;    
+    color: white;
+}
+footer h3{
+    padding-top: 4rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+}

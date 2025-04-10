@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('vid/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.hero {
+
+    color: rgb(255, 255, 255);
+    padding: 100px 20px;
+}
+
+section .quick-links{
+ color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+ h2, p{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+ }
+
+.about, .quick-links {
+    padding: 20px;
+    margin: 20px;
+}
+
+.link-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-box a {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo{
+    height: 50px;
+    margin-right: 85rem;
+}
+
+footer{
+    background:#333;
+    height: 17.3rem;    
+    color: white;
+}
+footer h3{
+    padding-top: 4rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+}

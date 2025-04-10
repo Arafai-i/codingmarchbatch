@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('vid/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    margin-right: 85rem;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    width: 30rem;
+    color: white;
+
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background:#333;
+    height: 17.3rem;    
+    color: white;
+}
+footer h3{
+    padding-top: 4rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+}
